@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1425417C2CA4B8650055B1C4 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1425417B2CA4B8650055B1C4 /* Request.swift */; };
+		1465C98D2CA6477E00033590 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1465C98C2CA6477E00033590 /* HomeView.swift */; };
+		1465C98F2CA6479200033590 /* RequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1465C98E2CA6479200033590 /* RequestView.swift */; };
+		1465C9912CA6542500033590 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1465C9902CA6542500033590 /* ProfileView.swift */; };
 		1485BB332C60737200EE2E86 /* glassppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485BB322C60737200EE2E86 /* glassppApp.swift */; };
 		1485BB352C60737200EE2E86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485BB342C60737200EE2E86 /* ContentView.swift */; };
 		1485BB372C60737500EE2E86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1485BB362C60737500EE2E86 /* Assets.xcassets */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1425417B2CA4B8650055B1C4 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		1465C98C2CA6477E00033590 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1465C98E2CA6479200033590 /* RequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestView.swift; sourceTree = "<group>"; };
+		1465C9902CA6542500033590 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		1485BB2F2C60737200EE2E86 /* glasspp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glasspp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1485BB322C60737200EE2E86 /* glassppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glassppApp.swift; sourceTree = "<group>"; };
 		1485BB342C60737200EE2E86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +79,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1465C98B2CA6475B00033590 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1465C98C2CA6477E00033590 /* HomeView.swift */,
+				1465C98E2CA6479200033590 /* RequestView.swift */,
+				1465C9902CA6542500033590 /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		1485BB262C60737200EE2E86 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +112,10 @@
 		1485BB312C60737200EE2E86 /* glasspp */ = {
 			isa = PBXGroup;
 			children = (
+				1465C98B2CA6475B00033590 /* Views */,
 				1485BB322C60737200EE2E86 /* glassppApp.swift */,
 				1485BB342C60737200EE2E86 /* ContentView.swift */,
+				1425417B2CA4B8650055B1C4 /* Request.swift */,
 				1485BB362C60737500EE2E86 /* Assets.xcassets */,
 				1485BB382C60737500EE2E86 /* Preview Content */,
 			);
@@ -257,7 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1465C98F2CA6479200033590 /* RequestView.swift in Sources */,
 				1485BB352C60737200EE2E86 /* ContentView.swift in Sources */,
+				1465C98D2CA6477E00033590 /* HomeView.swift in Sources */,
+				1425417C2CA4B8650055B1C4 /* Request.swift in Sources */,
+				1465C9912CA6542500033590 /* ProfileView.swift in Sources */,
 				1485BB332C60737200EE2E86 /* glassppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
