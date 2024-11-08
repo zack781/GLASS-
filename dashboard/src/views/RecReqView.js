@@ -18,7 +18,7 @@ const RecReqView = () => {
   const [aoe, setAoe] = useState('');
 
   const submitFundRecRequest = () => {
-    axios.post('http://localhost:8080/submit', {
+    axios.post('https://127.0.0.1:8080/submit', {
       school_year: schoolYear,
       balance: balance,
       target: target,
@@ -26,7 +26,13 @@ const RecReqView = () => {
       sdg: sdg,
       gc: gc,
       aoe: aoe
-    })
+    },
+    {
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    }
+    )
     .then((response) => {
       console.log(response);
     })
