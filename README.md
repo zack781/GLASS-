@@ -13,3 +13,6 @@ Check that your running python from the virtual environment:
 Install the dependencies:
 ```pip install -r requirements.txt```
 
+pip install --upgrade notebook
+
+If you notice any issue with ```jupyter notebook```, try running ```pip install --upgrade notebook```
